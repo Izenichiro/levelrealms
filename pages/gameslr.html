@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>LevelRealms</title>
+	<link rel="shortcut icon" href="/img/favicon.png" type="image/x-icon">
+	<link rel="stylesheet" type="text/css" href="/css/style.css">
+    <link rel="stylesheet" href="/css/stylegames.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body class="bg">
+	<header>   
+		<!-- навигационное меню -->
+		<nav class="navbar navbar-expand-lg navbar-light">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="#">
+				<img src="/img/favicon.png" alt="Logo" width="60" height="60" class="d-inline-block align-text-top">
+				<img src="/img/logotext.png" alt="Logo" width="240" height="60" class="d-inline-block align-text-top">
+				</a>
+			</div>
+			<div class="container-fluid">
+			  <a class="navbar-brand" href="#"></a>
+			  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Переключатель навигации">
+				<span class="navbar-toggler-icon"></span>
+			  </button>
+			  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+				  <li class="nav-item">
+					<a class="nav-link" href="/index.html">Главная</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link active" aria-current="page" href="#">Игры</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="/pages/peoplelr.html">Люди</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#ModalForm">Форум</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="/pages/helplr.html">Помощь</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="/pages/premiumsub.html">Премиум</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#ModalForm">Профиль</a>
+				</li>	
+				</ul>
+			  </div>
+			</div>
+		  </nav>
+	</header>
+
+	<main>
+		<img src="/img/biglogo.png" alt="biglogo" class="biglogo img-fluid" width="400px">
+		<section class="post-content-section">
+			<div class="container">
+				<!-- Карточки разных игр -->
+				<div class="cards">
+					<div class="cards__item cards__item--clr1">
+					  <div class="cards__name">Hunt Showdown</div>
+					  <div class="cards__product">
+						<img src="/img/populargames/HuntShowdown.png" alt="HuntShowdown">
+					  </div>
+					</div>
+					<div class="cards__item cards__item--clr2">
+					  <div class="cards__name">Lethal Company</div>
+					  <div class="cards__product">
+						<img src="/img/populargames/LethalCompany.png" alt="LethalCompany">
+					  </div>
+					</div>
+					<div class="cards__item cards__item--clr3">
+					  <div class="cards__name">Deep Rock Galactic</div>
+					  <div class="cards__product">
+						<img src="/img/populargames/DeepRockGalactic.png" alt="DeepRockGalactic">
+					  </div>
+					</div>
+					<div class="cards__item cards__item--clr4">
+					  <div class="cards__name">Dead by Daylight</div>
+					  <div class="cards__product">
+						<img src="/img/populargames/DeadbyDaylight.png" alt="DeadbyDaylight">
+					  </div>
+					</div>
+				  </div>
+				  <!-- Кнопка с переходом -->
+				  <div class="buttoncustom2">
+					<div class="container">
+						<div class="highlight"></div>
+						<span class="d-flex justify-content-center">
+						  <a href="/pages/peoplelr.html" class="button grad transition">Найти напарников для этих игр сейчас</a>
+						</span>
+					  </div>
+				  </div>
+				</div>
+			</section>
+			<br>
+			<div class="container">
+				<div class="container">
+					<!-- Случайный предмет -->
+					<span class="shiny">
+						<a href="#" class="inner-shiny" data-bs-toggle="modal" data-bs-target="#randomitemmod">Случайный предмет</a>
+					</span>
+					<br>
+					<div class="container">
+						<p class="text-light text-center">⚠️Нажмите на текст выше, чтобы открыть рулетку предметов⚠️</p>
+					</div>
+				</div>
+			</div>
+			<br>
+			<!-- Блочная сетка -->
+			<section>
+				<div class="container">
+					<div>
+						<div class="row">
+							<div class="col-7">
+								<h2>Случайная игра</h2>
+								<!-- Случайная игра -->
+								<div class="rngfortop">
+									<div class="container">
+										<a href="/pages/premiumsub.html" class="text-decoration-none text-warning">Купите премиум и получите возможность скачать эти игры с нашего форума</a>
+										<br>
+										<hr>
+										<!-- Красивый вертикальный беннер -->
+										<div class="banner">
+											<div class="line">
+											  <span>Игра:</span>
+											</div>
+											<div class="line">
+												<h1 class="d-flex justify-content-center py-5">
+													<span class="nameContainer">word</span>
+													<span class="nameContainer hidden">word</span>
+												</h1>
+											</div>
+											<div class="line">
+											  <span><a href="#" class="text-warning" data-bs-toggle="modal" data-bs-target="#ModalForm">Скачать</a></span>
+											</div>
+										</div>
+									</div>
+								</div>
+
+							</div>
+							<div class="col-5">
+								<h2>Таймер до раздачи игр</h2>
+								<!-- Таймер -->
+								<div class="container">
+									<div id="countdown" class="timercount">
+										<div id='tiles'></div>
+										<div class="labels1">
+										  <li>Минуты</li>
+										  <li>Секунды</li>
+										</div>
+									</div>
+								</div>
+								<div class="bois">
+									<canvas class="daboys"></canvas>
+								</div>
+							</div>
+						</div>
+					</div>
+					<br>
+					<h2>Разное</h2>
+					<!-- Разное -->
+					<div class="container">
+						<div class="row">
+							<div class="col-8">
+								<!-- Сборки -->
+								<div class="gicards">
+									<div class="flex">
+										<div class="tilt">
+											<div class="card bg center" style="--color:#707070;--url:url('/img/packs/backgroundrow.jpg');">
+												<img src="/img/packs/railsofwarlogo.png">
+											</div>
+										</div>
+										<div class="tilt">
+											<div class="card bg center" style="--color:#68a9ce;--url:url('/img/packs/backgroundroc.png');">
+												<img src="/img/packs/railsofcoldlogo.png">
+											</div>
+										</div>
+										<div class="tilt">
+											<div class="card bg center" style="--color:#9bc744;--url:url('/img/packs/backgroundtod.png');">
+												<img src="/img/packs/tunnelsofdeadlogo.png">
+											</div>
+										</div>
+										<div class="tilt">
+											<div class="card bg center" style="--color:#e69926;--url:url('/img/packs/backgroundse.jpg');">
+												<img src="/img/packs/soulestatelogo.png">
+											</div>
+										</div>
+									</div>
+									<br>
+								</div>
+							</div>
+							<div class="col-4">
+								<div class="container">
+									<!-- Список разного -->
+									<ul>
+										<li> <i class="fa fa fa-home "></i>
+											<h5 class="title"><a href="#" data-bs-toggle="modal" data-bs-target="#musicmodal1">Музыка из игр</a></h5>
+											<p>Поиск любимой музыки из вашей избранной игры</p>
+										</li>
+										<li> <i class="fa fa-comment-o circle"></i>
+											<h5 class="title"><a href="/pages/gameslr.html" data-abc="true" data-bs-toggle="modal" data-bs-target="#ModalForm">Оформить пред-регистрацию</a></h5>
+											<p>Получите доступ в бета-версию нашей новой игры</p>
+										</li>
+										<li> <i class="fa fa-user circle"></i>
+											<h5 class="title"><a href="#" data-abc="true" data-bs-toggle="modal" data-bs-target="#ModalForm">Конкурсы</a></h5>
+											<p>Участвуйте в наших конкурсах - получайте игры бесплатно</p>
+										</li>
+										<li> <i class="fa fa-user circle"></i>
+											<h5 class="title"><a href="/pages/premiumsub.html" data-abc="true">Премиум</a></h5>
+											<p>Купите премиум и получите доступ в закрытые чаты и секретные разделы форума</p>
+										</li>
+									</ul>
+								</div>
+							</div>
+						  </div>
+					</div>
+				</div>
+			</div>
+			<br>
+			<!-- Популярные видео за неделю -->
+			<div class="container">
+			<h2>Популярные видео за неделю</h2>
+			<div class="container">
+				<div class="videoplayresponsive">
+					<div class="contain_archive">
+					  <div class="row_nm_videos">
+					  <div class="row__inner">
+					  <div class="tile" id="facebook_1">
+					  <div class="tile__media">
+	
+					  <iframe src="https://www.youtube.com/embed/Rfv9tib_32c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						</div>
+						</div>
+					  <div class="tile" id="facebook_2"><div class="tile__media">
+						<iframe src="https://www.youtube.com/embed/kTyOKEi8CC4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						</div>
+					</div>
+					  <div class="tile" id="facebook_3">
+					  <div class="tile__media">
+						<iframe src="https://www.youtube.com/embed/rJcx1o3gstA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							  </div>
+							</div>
+					  
+							<div class="tile" id="facebook_7">
+							  <div class="tile__media">
+								<iframe src="https://www.youtube.com/embed/a__O3WOYb-0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							  </div>
+							</div>
+					  
+							<div class="tile">
+							  <div class="tile__media">
+								<iframe src="https://www.youtube.com/embed/pl4du5RpEiM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							  </div>
+							</div>
+					  
+							<div class="tile">
+							  <div class="tile__media">
+								<iframe src="https://www.youtube.com/embed/gnxB9xZByyQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							  </div>
+							</div>
+					  
+							<div class="tile">
+							  <div class="tile__media">
+								<iframe src="https://www.youtube.com/embed/yfeMH60FxzU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							  </div>
+							</div>
+					  
+							<div class="tile">
+							  <div class="tile__media">
+								<iframe src="https://www.youtube.com/embed/YZze_PkpIA4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							  </div>
+							</div>
+					  
+							<div class="tile">
+							  <div class="tile__media">
+								<iframe src="https://www.youtube.com/embed/fxBQmwns1Q0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							  </div>
+							</div>
+					  
+							<div class="tile vimeo">
+							  <div class="tile__media">
+								<iframe src="https://www.youtube.com/embed/EEpQ2hMCJUs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							  </div>
+							</div>
+					  
+							<div class="tile">
+							  <div class="tile__media">
+								<iframe src="https://www.youtube.com/embed/rK6UYszOpQ0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							  </div>
+							</div>
+					  
+						  </div>
+						</div>
+					  
+					  </div>
+					  
+				</div> <!-- конец блока с популярными видео -->
+			</div>
+		</div>
+		<br>
+		<!-- Персонажи дня -->
+		<div class="container l2">
+			<h2>Персонажи дня</h2>
+			<div class="charcard1">
+				<div class="container">
+					<!-- карточка персонажа -->
+					<div class="card">
+					   <!-- передний DIV - правая часть -->
+					  <div class="front">
+						<h1 class="name">2B</h1>
+						<h3 class="nname">YoRHa No.2 Type B
+							<!-- описание персонажа	 -->
+						<p>Является андроидом YoRHa, предназначенным для сражения с машинами, отправленным на Землю от имени выживших людей. Служила во время 14-й войны машин.</p>
+						<!-- стрелки - анимированные -->
+						<span class="arrow-container"> 
+							 <div class="arrow">
+								<span>&#x203A;</span>    
+								<span>&#x203A;</span> 
+								<span>&#x203A;</span>         
+							 </div>
+						</span>
+					  </div> <!-- конец переднего DIV -->
+				  <!-- при наведении на карточку -->
+					  <div class="more">
+						<div class="character-card">        
+						  <img class="character"  src="/img/chars/2B.png" alt="2B" border="0">
+						</div>
+						<div class="more-info">
+						  <h1 class="name">2B</h1>
+						  <br>	  
+				  <!-- звезды - ака рейтинг --> 
+				  <!--  &#9733; ----- полностью-->  
+				  <!--  &#9734; ----- не полностью-->   
+				  <!-- использование звезд на статусе ниже -->
+						  <div class="rating">
+							<span class="category"> Озвучка </span>
+							<span class="rate"> &#9733; &#9733; &#9733; &#9733; &#9734; </span>
+						  </div>
+						  <div class="rating">
+							<span class="category">Личность</span>
+							<span class="rate"> &#9733; &#9733; &#9733; &#9733; &#9734;</span>
+						  </div>
+						  <div class="rating">
+							<span class="category">История</span>
+							<span class="rate"> &#9733; &#9733; &#9733; &#9733; &#9734;</span>
+						  </div>
+				  <!-- ... с картинками -->      
+						  <div class="stats">
+							<div>
+							 <div class="title">Оружее</div>
+							  <img class="image" src="https://rerollcdn.com/GENSHIN/UI/weapon_sword.png" alt="sword-icon png">            
+							</div>
+							 <div>
+							   <div class="title">Стиль</div>
+							   <img class="image" src="https://rerollcdn.com/GENSHIN/UI/rarity_5.png" alt="golden star png">  
+							 </div>		
+							  <div>
+								<div class="title">Рейтинг</div>
+								<img class="image" src="https://img.game8.co/956959/c0f0e4f403f29e8b66663da418259ca5_2017-05-05.png/show" alt="">
+							  </div>
+							</div> <!-- конец DIV со статусом -->
+						  </div> <!-- конец DIV с информацией -->
+						</div>
+					  </div> <!-- конец DIV с карточкой -->
+					  
+					<!-- карточка персонажа -->
+					<div class="card">
+						<!-- передний DIV - правая часть -->
+					   <div class="front">
+						 <h1 class="name">Malenia</h1>
+						 <h3 class="nname">Маления, Клинок Микеллы
+							 <!-- описание персонажа	 -->
+						 <p>Я Маления. Клинок Микеллы. И я прежде не знала поражений.</p>
+						 <!-- стрелки - анимированные -->
+						 <span class="arrow-container"> 
+							  <div class="arrow">
+								 <span>&#x203A;</span>    
+								 <span>&#x203A;</span> 
+								 <span>&#x203A;</span>         
+							  </div>
+						 </span>
+					   </div> <!-- конец переднего DIV -->
+				   <!-- при наведении на карточку -->
+					   <div class="more">
+						 <div class="character-card">        
+						   <img class="character"  src="/img/chars/Malenia.png" alt="Malenia" border="0">
+						 </div>
+						 <div class="more-info">
+						   <h1 class="name">Malenia</h1>
+						   <br>	  
+				   <!-- звезды - ака рейтинг --> 
+				   <!--  &#9733; ----- полностью-->  
+				   <!--  &#9734; ----- не полностью-->   
+				   <!-- использование звезд на статусе ниже -->
+						   <div class="rating">
+							 <span class="category"> Озвучка </span>
+							 <span class="rate"> &#9733; &#9733; &#9733; &#9733; &#9734; </span>
+						   </div>
+						   <div class="rating">
+							 <span class="category">Личность</span>
+							 <span class="rate"> &#9733; &#9733; &#9734; &#9734; &#9734;</span>
+						   </div>
+						   <div class="rating">
+							 <span class="category">История</span>
+							 <span class="rate"> &#9733; &#9733; &#9733; &#9733; &#9734;</span>
+						   </div>
+				   <!-- ... с картинками -->      
+						   <div class="stats">
+							 <div>
+							  <div class="title">Оружее</div>
+							   <img class="image" src="https://rerollcdn.com/GENSHIN/UI/weapon_sword.png" alt="sword-icon png">            
+							 </div>
+							  <div>
+								<div class="title">Стиль</div>
+								<img class="image" src="https://rerollcdn.com/GENSHIN/UI/rarity_5.png" alt="golden star png">  
+							  </div>		
+							   <div>
+								 <div class="title">Рейтинг</div>
+								 <img class="image" src="https://img.game8.co/956959/c0f0e4f403f29e8b66663da418259ca5_2017-05-05.png/show" alt="">
+							   </div>
+							 </div> <!-- конец DIV со статусом -->
+						   </div> <!-- конец DIV с информацией -->
+						 </div>
+					   </div> <!-- конец DIV с карточкой -->
+
+					<!-- карточка персонажа -->
+					<div class="card">
+						<!-- передний DIV - правая часть -->
+					   <div class="front">
+						 <h1 class="name">Zelda</h1>
+						 <h3 class="nname">Принцесса Зельда
+							 <!-- описание персонажа	 -->
+						 <p>Главный женский персонаж всей серии игр. Она родилась в королевской семье Хайрула. Весьма красивая девушка. Зельда очень лояльна к тем, о ком она заботится.</p>
+						 <!-- стрелки - анимированные -->
+						 <span class="arrow-container"> 
+							  <div class="arrow">
+								 <span>&#x203A;</span>    
+								 <span>&#x203A;</span> 
+								 <span>&#x203A;</span>         
+							  </div>
+						 </span>
+					   </div> <!-- конец переднего DIV -->
+				   <!-- при наведении на карточку -->
+					   <div class="more">
+						 <div class="character-card">        
+						   <img class="character"  src="/img/chars/Zelda.png" alt="Zelda" border="0">
+						 </div>
+						 <div class="more-info">
+						   <h1 class="name">Zelda</h1>
+						   <br>	  
+				   <!-- звезды - ака рейтинг --> 
+				   <!--  &#9733; ----- полностью-->  
+				   <!--  &#9734; ----- не полностью-->   
+				   <!-- использование звезд на статусе ниже -->
+						   <div class="rating">
+							 <span class="category"> Озвучка </span>
+							 <span class="rate"> &#9733; &#9733; &#9733; &#9733; &#9734; </span>
+						   </div>
+						   <div class="rating">
+							 <span class="category">Личность</span>
+							 <span class="rate"> &#9733; &#9733; &#9733; &#9733; &#9734;</span>
+						   </div>
+						   <div class="rating">
+							 <span class="category">История</span>
+							 <span class="rate"> &#9733; &#9733; &#9733; &#9734; &#9734;</span>
+						   </div>
+				   <!-- ... с картинками -->      
+						   <div class="stats">
+							 <div>
+							  <div class="title">Оружее</div>
+							   <img class="image" src="https://rerollcdn.com/GENSHIN/UI/weapon_sword.png" alt="sword-icon png">            
+							 </div>
+							  <div>
+								<div class="title">Стиль</div>
+								<img class="image" src="https://rerollcdn.com/GENSHIN/UI/rarity_5.png" alt="golden star png">  
+							  </div>		
+							   <div>
+								 <div class="title">Рейтинг</div>
+								 <img class="image" src="https://img.game8.co/956959/c0f0e4f403f29e8b66663da418259ca5_2017-05-05.png/show" alt="">
+							   </div>
+							 </div> <!-- конец DIV со статусом -->
+						   </div> <!-- конец DIV с информацией -->
+						 </div>
+					   </div> <!-- конец DIV с карточкой -->
+					   
+				  </div> <!-- конец DIV- контейнера блока карточек персонажей -->
+			</div>
+		</div>
+	</section>
+	
+	<!-- Логин попап-модальное окно v2 -->
+	<div class="modal fade" id="ModalForm" aria-hidden="true" aria-labelledby="ModalFormlabel" tabindex="-1">
+		<div class="modal-dialog modal-dialog-centered">
+			<div class="modal-content">
+				<!-- Форма для логина -->
+				<form action="">
+					<div class="modal-header">
+						<h5 class="modal-title">Войдите на сайт LevelRealms</h5>
+						<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+					</div>
+					<div class="modal-body">
+						<div class="mb-3">
+							<label for="Username">Ваш логин<span class="text-danger">*</span></label>
+							<input type="text" name="username" class="form-control" id="Username" placeholder="Введите логин" required>
+						</div>
+						<div class="mb-3">
+							<label for="Password">Ваш пароль<span class="text-danger">*</span></label>
+							<input type="password" name="password" class="form-control" id="Password" placeholder="Введите пароль" required>
+						</div>
+						<div class="mb-3">
+							<input class="form-check-input" type="checkbox" value="" id="remember">
+							<label class="form-check-label" for="remember">Запомнить меня</label>
+							<a href="/pages/helplr.html" class="float-end">Забыли пароль?</a>
+						</div>
+					</div>
+					<div class="modal-footer pt-4">                  
+						<button type="submit" class="btn btn-success mx-auto w-100">Войти</button>
+					</div>
+					<p class="text-center">У вас нет аккаунта? <a href="#" class="text-warning" data-bs-target="#loginv2nextreg" data-bs-toggle="modal" data-bs-dismiss="modal">Зарегистрируйтесь</a> </p>
+				</div>
+			</form>
+		</div>
+	</div>
+	<div class="modal fade" id="loginv2nextreg" aria-hidden="true" aria-labelledby="loginv2nextreglabel" tabindex="-1">
+		<div class="modal-dialog modal-dialog-centered">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="loginv2nextreglabel">Ошибка 928</h5>
+					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+				</div>
+				<div class="modal-body">
+					<div class="error928">
+						<img src="/img/gif/error.gif" class="steveminecraft" width="150px" alt="error-gif">
+					</div>
+				</div>
+				<div class="modal-footer">                  
+					<button class="btn btn-primary" data-bs-target="#ModalForm" data-bs-toggle="modal" data-bs-dismiss="modal">Вернуться назад</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+		<!-- Музыка из игр для боковой панели в категории разное -->
+		<div class="modal fade" id="musicmodal1" tabindex="-1" aria-labelledby="musicmodal1label" aria-hidden="true">
+			<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+				<h5 class="modal-title" id="musicmodal1label">Музыка из игр</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+				</div>
+				<div class="modal-body">
+					<div class="musicplayer1">
+						<img src="/img/gif/frede.gif" class="steveminecraft" width="200px" alt="frede-gif">
+						<!-- Дорожки, используемые в этом приложении музыкального/аудиоплеера, можно использовать бесплатно. Я скачал их с сайтов Soundcloud и NCS. Я не являюсь владельцем этих треков. -->
+						<div id="app-cover">
+							<div id="bg-artwork"></div>
+							<div id="bg-layer"></div>
+							<div id="player">
+							<div id="player-track">
+								<div id="album-name"></div>
+								<div id="track-name"></div>
+								<div id="track-time">
+								<div id="current-time"></div>
+								<div id="track-length"></div>
+								</div>
+								<div id="s-area">
+								<div id="ins-time"></div>
+								<div id="s-hover"></div>
+								<div id="seek-bar"></div>
+								</div>
+							</div>
+							<div id="player-content">
+								<div id="album-art">
+								<img src="/img/musicdisk/cyberpunk-2077.jpg" class="active" id="_1">
+								<img src="/img/musicdisk/Dying-light.jpg" id="_2">
+								<img src="/img/musicdisk/elden-ring.jpg" id="_3">
+								<img src="/img/musicdisk/atomic-heart.jpg" id="_4">
+								<img src="/img/musicdisk/DOOM.jpg" id="_5">
+								<div id="buffer-box">Буферизация...</div>
+								</div>
+								<div id="player-controls">
+								<div class="control">
+									<div class="buttonmusic" id="play-previous">
+									<i class="fas fa-backward">⏪</i>
+									</div>
+								</div>
+								<div class="control">
+									<div class="buttonmusic" id="play-pause-button">
+									<i class="fas fa-play">⏸️</i>
+									</div>
+								</div>
+								<div class="control">
+									<div class="buttonmusic" id="play-next">
+									<i class="fas fa-forward">⏩</i>
+									</div>
+								</div>
+								</div>
+							</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="modal-footer">
+				<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+				</div>
+			</div>
+			</div>
+		</div>
+
+				<!-- Модальное окно - случайный предмет -->
+				<div class="modal fade" id="randomitemmod" tabindex="-1" aria-labelledby="randomitemmodlabel" aria-hidden="true">
+					<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header">
+						<h5 class="modal-title" id="randomitemmodlabel">Случайный предмет</h5>
+						<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+						</div>
+						<div class="modal-body">
+							<!-- Двигающийся текст вверху -->
+							<div class="bio">
+								<p class="text-moving"><span class="nicknamep">[Samurai]</span> получил <span class="greenp">необычный</span> предмет <span class="nicknamep">[Tural157]</span> получил <span class="goldp">легендарный</span> предмет <span class="nicknamep">[Enotik]</span> получил <span class="bluep">редкий</span> предмет <span class="nicknamep">[Gunter]</span> получил <span class="purplep">эпический</span> предмет <span class="nicknamep">[AndreyV]</span> получил <span class="goldp">легендарный</span> предмет <span class="nicknamep">[11Arselo11]</span> получил <span class="greenp">необычный</span> предмет <span class="nicknamep">[Betmon]</span> получил <span class="bluep">редкий</span> предмет <span class="nicknamep">[Edgar13]</span> получил <span class="greenp">необычный</span> предмет</p>
+							</div>
+							<!-- Рандомайзер с предметами внутри модального окна-->
+							<div class="lootbox">
+								<div class="lootbox-container">
+								<div class="lootbox-wrapper"></div>
+								<div class="loot-marker"></div>       
+								</div>
+							</div>
+							<!-- Кнопка рандомайзера -->
+							<div class="d-flex text-center justify-content-center">
+								<input type="button" class="button1l" value="Крутить" onclick="validate();" name="myButton" id="myButton">  
+								<img style="display: none;" src="/img/gif/loading.gif" class="img-fluid pt-3" width="58px" id="myImage">
+							</div>
+							<!-- <div class="button1l" id='btn1l'>Крутить</div> -->
+							<hr>
+							<div class="container">
+								<div class="rewards"></div>
+							</div>
+							
+						</div>
+						<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+						</div>
+					</div>
+					</div>
+				</div>
+	</main>
+
+	<footer class="section footer-classic context-dark bg-image">
+        <div class="container">
+          <div class="row row-30">
+            <div class="col-md-4 col-xl-5">
+              <div class="pr-xl-4"><a class="brand" href="/index.html"><img class="brand-logo-light img-fluid" src="/img/logotext.png" alt="LevelRealms" width="350" height="100"></a>
+                <p>Воспроизведение любых материалов сайта разрешается только при согласовании с администрацией.</p>
+                <p class="rights"><span>©  </span><span class="copyright-year">2024</span><span> </span><span>LevelRealms</span><span>. </span><span>Все права защищены.</span></p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <h5>Информация</h5>
+              <dl class="contact-list">
+                <dt>Наш офис:</dt>
+                <dd>129281, г. Москва, Староватутинский проезд, д.6.</dd>
+              </dl>
+              <dl class="contact-list">
+                <dt>Основная почта:</dt>
+                <dd><a href="#" class="text-decoration-none text-white">LevelRealms@mail.ru</a></dd>
+				<dt>По вопросам рекламы:</dt>
+                <dd><a href="#" class="text-decoration-none text-white">LevelRealmsCeo@mail.ru</a></dd>
+              </dl>
+            </div>
+            <div class="col-md-4 col-xl-3">
+              <h5>Навигация</h5>
+              <ul class="nav-list">
+                <li><a href="/index.html" class="text-decoration-none text-white">Главная</a></li>
+                <li><a href="/pages/gameslr.html" class="text-decoration-none text-white">Игры</a></li>
+                <li><a href="/pages/peoplelr.html" class="text-decoration-none text-white">Люди</a></li>
+                <li><a href="#" class="text-decoration-none text-white" data-bs-toggle="modal" data-bs-target="#ModalForm">Форум</a></li>
+                <li><a href="/pages/helplr.html" class="text-decoration-none text-white">Помощь</a></li>
+				<li><a href="/pages/premiumsub.html" class="text-decoration-none text-white">Премиум</a></li>
+				<li><a href="/pages/helplr.html" class="text-decoration-none text-white">Правила</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+	  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+	  <script src="/js/scriptgames.js"></script>
+	  <script src="/js/script.js"></script>
+	  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+	  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+</body>
+</html>

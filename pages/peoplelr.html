@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>LevelRealms</title>
+	<link rel="shortcut icon" href="/img/favicon.png" type="image/x-icon">
+	<link rel="stylesheet" type="text/css" href="/css/style.css">
+    <link rel="stylesheet" type="text/css" href="/css/peoplelr.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body class="bg">
+	<header>   
+		<!-- навигационное меню -->
+		<nav class="navbar navbar-expand-lg navbar-light">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="#">
+				<img src="/img/favicon.png" alt="Logo" width="60" height="60" class="d-inline-block align-text-top">
+				<img src="/img/logotext.png" alt="Logo" width="240" height="60" class="d-inline-block align-text-top">
+				</a>
+			</div>
+			<div class="container-fluid">
+			  <a class="navbar-brand" href="#"></a>
+			  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Переключатель навигации">
+				<span class="navbar-toggler-icon"></span>
+			  </button>
+			  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+				  <li class="nav-item">
+					<a class="nav-link" href="/index.html">Главная</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="/pages/gameslr.html">Игры</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link active" aria-current="page"  href="/pages/peoplelr.html">Люди</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#ModalForm">Форум</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="/pages/helplr.html">Помощь</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="/pages/premiumsub.html">Премиум</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#ModalForm">Профиль</a>
+				</li>	
+				</ul>
+			  </div>
+			</div>
+		  </nav>
+	</header>
+
+	<main>
+		<img src="/img/biglogo.png" alt="biglogo" class="biglogo img-fluid" width="400px">
+		<section class="post-content-section">
+            
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-8">
+                        <!-- Поиск напарников -->
+                        <section class="py-5">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <h2 class="display-5 fw-bold">Поиск напарников</h2>
+                                        <form class="d-flex pt-4 me-lg-5">
+                                            <input aria-label="input" class="form-control me-2" placeholder="Поиск..." type="tel"> <button class="btn btn-primary text-nowrap" type="submit">Найти</button>
+                                        </form>
+                                    </div>
+                                    <div class="col-lg-6 mt-4 mt-lg-0">
+                                        <p><a href="#" data-bs-toggle="modal" data-bs-target="#ModalForm">Войдите на сайт,</a> выберите игру и оставьте заявку!<br><br>Нет нужной игры? Стань первым, отправь форму о поиске!</p>
+                                        <button class="btn btn-primary text-nowrap" type="submit" data-bs-toggle="modal" data-bs-target="#ModalForm">Создать форму поиска</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr>
+                            <!-- Фильтр людей -->
+                            <div class="container">
+                                <div class="peoplesearch">
+                                  <h3>Поиск по нику пользователя</h3>
+                                  <p>Сайт не несет ответственности за дальнейшие взаимодействия пользователей!</p>
+                                    <div class="search-container main-container">
+                                        <i class="fa fa-search"></i>
+                                        <input type="text" id="search-input" placeholder="Введите ник пользователя" autocomplete="off"/>
+                                      </div>
+                                      <div class="main-container">
+                                        <div id="nothing-alert">Ничего не найдено</div>
+                                        <div class="cards">
+                                          <h2 class="icon-name">Tural157</h2>
+                                          <img src="/img/people/customavatar1pic.jpg" width="66px" class="img-fluid" alt="profile1">
+                                        </div>
+                                        <div class="cards">
+                                          <h2 class="icon-name">Enotik</h2>
+                                          <img src="/img/people/customavatar2pic.jpg" width="66px" class="img-fluid" alt="profile2">
+                                        </div>
+                                        <div class="cards">
+                                          <h2 class="icon-name">Anonymous</h2>
+                                          <img src="/img/people/customavatar3pic.jpg" width="66px" class="img-fluid" alt="profile3">
+                                        </div>
+                                        <div class="cards">
+                                          <h2 class="icon-name">Betmon</h2>
+                                          <img src="/img/people/customavatar4pic.jpg" width="66px" class="img-fluid" alt="profile4">
+                                        </div>
+                                        <div class="cards">
+                                          <h2 class="icon-name">Fluttershy</h2>
+                                          <img src="/img/people/customavatar5pic.jpg" width="66px" class="img-fluid" alt="profile5">
+                                        </div>
+                                        <div class="cards">
+                                          <h2 class="icon-name">Pimp</h2>
+                                          <img src="/img/people/customavatar6pic.jpg" width="66px" class="img-fluid" alt="profile6">
+                                        </div>
+                                        <div class="cards">
+                                          <h2 class="icon-name">Gunter</h2>
+                                          <img src="/img/people/customavatar7pic.jpg" width="66px" class="img-fluid" alt="profile7">
+                                        </div>
+                                        <div class="cards">
+                                          <h2 class="icon-name">11Arselo11</h2>
+                                          <img src="/img/people/customavatar8pic.jpg" width="66px" class="img-fluid" alt="profile8">
+                                        </div>
+                                        <div class="cards">
+                                          <h2 class="icon-name">13653568</h2>
+                                          <img src="/img/people/customavatar9pic.jpg" width="66px" class="img-fluid" alt="profile9">
+                                        </div>
+                                        <div class="cards">
+                                          <h2 class="icon-name">Gusev</h2>
+                                          <img src="/img/people/customavatar10pic.jpg" width="66px" class="img-fluid" alt="profile10">
+                                        </div>
+                                        <div class="cards">
+                                          <h2 class="icon-name">AndreyV</h2>
+                                          <img src="/img/people/customavatar11pic.jpg" width="66px" class="img-fluid" alt="profile11">
+                                        </div>
+                                        <div class="cards">
+                                          <h2 class="icon-name">Edgar13</h2>
+                                          <img src="/img/people/customavatar12pic.jpg" width="66px" class="img-fluid" alt="profile12">
+                                        </div>
+                                        <div class="cards">
+                                          <h2 class="icon-name">Samurai</h2>
+                                          <img src="/img/people/samurai.png" width="66px" class="img-fluid" alt="profile13">
+                                        </div>
+                                      </div>
+                                </div>
+                            </div>
+                            <hr>
+                            <!-- Фильтр игр -->
+                            <div class="searchbygame">
+                                <div class="container">
+                                  <h3 class="mb-4">Поиск по играм</h3>
+                                  <p>Сайт не несет ответственности за дальнейшие взаимодействия пользователей!</p>
+                                    <div class="row">
+                                      <div class="col-sm-12 mb-3">
+                                        <input type="text" id="myFilter" class="form-control" onkeyup="myFunction()" placeholder="Введите название игры">
+                                      </div>
+                                    </div>
+                                    <div class="row" id="myItems">
+                                      <div class="col-sm-12 mb-3">
+                                        <!-- Карточки с играми -->
+                                        <div class="card">
+                                          <div class="card-body">
+                                            <h5 class="card-title"><a href="#">Majestic</a></h5>
+                                            <h6 class="card-subtitle mb-2 text-muted">Ищет: <a href="#" data-bs-toggle="modal" data-bs-target="#ModalForm">Tural157</a></h6>
+                                            <img src="/img/people/customgame1.jpg" width="250px" class="img-fluid" alt="gametoplay1">
+                                            <p class="card-text">Салам брат. Заходи в наш игра и будь вместе играт!</p>
+                                            <button class="btn btn-primary text-nowrap" type="submit" data-bs-toggle="modal" data-bs-target="#ModalForm">Откликнуться</button>
+                                          </div>
+                                        </div>
+                                  
+                                        <div class="card">
+                                          <div class="card-body">
+                                            <h5 class="card-title"><a href="#">Vrising</a></h5>
+                                            <h6 class="card-subtitle mb-2 text-muted">Ищет: <a href="#" data-bs-toggle="modal" data-bs-target="#ModalForm">Gusev</a></h6>
+                                            <img src="/img/people/customgame2.jpg" width="250px" class="img-fluid" alt="gametoplay2">
+                                            <p class="card-text">Ищем людей пол не важе,возраст больше 14 лет. Главное чтобы был актив, микрофон, средние умение играть и достаточно времени.</p>
+                                            <button class="btn btn-primary text-nowrap" type="submit" data-bs-toggle="modal" data-bs-target="#ModalForm">Откликнуться</button>
+                                          </div>
+                                        </div>
+                                  
+                                        <div class="card">
+                                          <div class="card-body">
+                                            <h5 class="card-title"><a href="#">ItTakesTwo</a></h5>
+                                            <h6 class="card-subtitle mb-2 text-muted">Ищет: <a href="#" data-bs-toggle="modal" data-bs-target="#ModalForm">Anonymous</a></h6>
+                                            <img src="/img/people/customgame3.jpg" width="250px" class="img-fluid" alt="gametoplay3">
+                                            <p class="card-text">Ищу напарников для игры. Играю на своей сборке (скину как договоримся играть).</p>
+                                            <button class="btn btn-primary text-nowrap" type="submit" data-bs-toggle="modal" data-bs-target="#ModalForm">Откликнуться</button>
+                                          </div>
+                                        </div>
+                                        
+                                        <div class="card">
+                                          <div class="card-body">
+                                            <h5 class="card-title"><a href="#">ProjectZomboid</a></h5>
+                                            <h6 class="card-subtitle mb-2 text-muted">Ищет: <a href="#" data-bs-toggle="modal" data-bs-target="#ModalForm">Fluttershy</a></h6>
+                                            <img src="/img/people/customgame4.jpg" width="250px" class="img-fluid" alt="gametoplay4">
+                                            <p class="card-text">Идет набор в клан SQL:<br>Слушать старших<br>Быть сдержанным<br>Иметь микрофон<br>Не руинить игру</p>
+                                            <button class="btn btn-primary text-nowrap" type="submit" data-bs-toggle="modal" data-bs-target="#ModalForm">Откликнуться</button>
+                                          </div>
+                                        </div>
+                                        
+                                        <div class="card">
+                                          <div class="card-body">
+                                            <h5 class="card-title"><a href="#">Destiny2</a></h5>
+                                            <h6 class="card-subtitle mb-2 text-muted">Ищет: <a href="#" data-bs-toggle="modal" data-bs-target="#ModalForm">13653568</a></h6>
+                                            <img src="/img/people/customgame5.jpg" width="250px" class="img-fluid" alt="gametoplay5">
+                                            <p class="card-text">Ищу либеральных напарников 10+ без токсичности для совместной игры.</p>
+                                            <button class="btn btn-primary text-nowrap" type="submit" data-bs-toggle="modal" data-bs-target="#ModalForm">Откликнуться</button>
+                                          </div>
+                                        </div>
+                                        
+                                        <div class="card">
+                                          <div class="card-body">
+                                            <h5 class="card-title"><a href="#">Portal2</a></h5>
+                                            <h6 class="card-subtitle mb-2 text-muted">Ищет: <a href="#" data-bs-toggle="modal" data-bs-target="#ModalForm">Pimp</a></h6>
+                                            <img src="/img/people/customgame6.png" width="250px" class="img-fluid" alt="gametoplay6">
+                                            <p class="card-text">У меня тор, но не думаю что это проблема. Есть связь со стимом.</p>
+                                            <button class="btn btn-primary text-nowrap" type="submit" data-bs-toggle="modal" data-bs-target="#ModalForm">Откликнуться</button>
+                                          </div>
+                                        </div>
+                                        
+                                        <div class="card">
+                                          <div class="card-body">
+                                            <h5 class="card-title"><a href="#">DeadByDaylight</a></h5>
+                                            <h6 class="card-subtitle mb-2 text-muted">Ищет: <a href="#" data-bs-toggle="modal" data-bs-target="#ModalForm">11Arselo11</a></h6>
+                                            <img src="/img/people/customgame7.jpg" width="250px" class="img-fluid" alt="gametoplay7">
+                                            <p class="card-text">Ищу адекватных людей от 20 лет с кем можно поиграть в разные игры и пообщаться, возможно стать друзьями. О себе подробней в лс. </p>
+                                            <button class="btn btn-primary text-nowrap" type="submit" data-bs-toggle="modal" data-bs-target="#ModalForm">Откликнуться</button>
+                                          </div>
+                                        </div>
+                                        
+                                        <div class="card">
+                                          <div class="card-body">
+                                            <h5 class="card-title"><a href="#">Barotrauma</a></h5>
+                                            <h6 class="card-subtitle mb-2 text-muted">Ищет: <a href="#" data-bs-toggle="modal" data-bs-target="#ModalForm">Betmon</a></h6>
+                                            <img src="/img/people/customgame8.jpg" width="250px" class="img-fluid" alt="gametoplay8">
+                                            <p class="card-text">Здравствуйте, сталкеры. У нас активно идет набор новых членов группировки "Жокер", в которой мы стремимся к господству.</p>
+                                            <button class="btn btn-primary text-nowrap" type="submit" data-bs-toggle="modal" data-bs-target="#ModalForm">Откликнуться</button>
+                                          </div>
+                                        </div>      
+                                      </div>    
+                                    </div>
+                                  </div>
+                            </div>
+                            
+                        </section>
+
+                    </div>
+                    <div class="col-sm-4">
+                        <h2>Советы по поиску</h2>
+                        <div class="container">
+                            <!-- Советы по поиску напарника -->
+                            <div class="col-md-12">
+                                <div class="accordion" id="Questions-accordion">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="Questions-headingOne"><button aria-controls="Questions-collapseOne" aria-expanded="false" class="accordion-button collapsed bg-light" data-bs-target="#Questions-collapseOne" data-bs-toggle="collapse" type="button">
+                                        <div class="text-muted me-3">
+                                        </div>Как найти тематические сообщества?</button></h2>
+                                        <div aria-labelledby="Questions-headingOne" class="accordion-collapse collapse" data-bs-parent="#Questions-accordion" id="Questions-collapseOne">
+                                            <div class="accordion-body">
+                                              На нашем форуме можно найти множество тематических сообществ, созданных для того, чтобы люди, увлеченные одной и той же игрой, могли общаться, делились опытом и, конечно, играть вместе.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="Questions-headingTwo"><button aria-controls="Questions-collapseTwo" aria-expanded="false" class="accordion-button collapsed bg-light" data-bs-target="#Questions-collapseTwo" data-bs-toggle="collapse" type="button">
+                                        <div class="text-muted me-3">
+                                        </div>Как выбрать подходящего напарника для игры?</button></h2>
+                                        <div aria-labelledby="Questions-headingTwo" class="accordion-collapse collapse" data-bs-parent="#Questions-accordion" id="Questions-collapseTwo">
+                                            <div class="accordion-body">
+                                              При выборе напарника для игры важны критерии, такие как игровой опыт, уровень сложности игры, возраст и общие интересы. Не следует выбирать напарника, который постоянно <a href="/pages/helplr.html">нарушает правила</a> или не выполняет поставленные задачи в игре. Важно также учесть коммуникативные навыки напарника, уровень общительности и умение работать в команде.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="Questions-headingThree"><button aria-controls="Questions-collapseThree" aria-expanded="false" class="accordion-button collapsed bg-light" data-bs-target="#Questions-collapseThree" data-bs-toggle="collapse" type="button">
+                                        <div class="text-muted me-3">
+                                        </div>Как не стать жертвой мошенников при поиске?</button></h2>
+                                        <div aria-labelledby="Questions-headingThree" class="accordion-collapse collapse" data-bs-parent="#Questions-accordion" id="Questions-collapseThree">
+                                            <div class="accordion-body">
+                                              Для того чтобы не стать жертвой мошеннических схем при поиске напарников в играх, важно быть осторожным и не доверять личной информации незнакомцам. Следует не делиться личными данными, платежными реквизитами и паролями от своих аккаунтов без необходимости.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="Questions-headingFour"><button aria-controls="Questions-collapseFour" aria-expanded="false" class="accordion-button collapsed bg-light" data-bs-target="#Questions-collapseFour" data-bs-toggle="collapse" type="button">
+                                        <div class="text-muted me-3">
+                                        </div>Какие игры пользуются наибольшим спросом для поиска напарников?</button></h2>
+                                        <div aria-labelledby="Questions-headingFour" class="accordion-collapse collapse" data-bs-parent="#Questions-accordion" id="Questions-collapseFour">
+                                            <div class="accordion-body">
+                                              Спрос на поиск напарников в играх может быть отличным индикатором популярности определенной игры. Например, такие игры, как <a href="/pages/gameslr.html">Dota 2, CS: GO, PUBG, PUBG Mobile и Fortnite,</a> имеют огромное количество игроков и популярны как в России, так и в других странах мира. В этих играх многие игроки ищут своих напарников или кланы для совместной игры.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Общий чат -->
+                        <h2>Чат</h2>
+                        <div class="peoplechat">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="panel panel-default">
+                                      <div class="panel-heading"><a href="#" data-bs-toggle="modal" data-bs-target="#ModalForm">Зарегистрируйтесь на сайте, чтобы пользоваться общим чатом!</a></div>
+                                      <div class="panel-body">
+                                        <div class="container">
+                                            <div class="row message-bubble">
+                                            <p class="text-warning">Anonymous</p>
+                                                <span>追了👀</span>
+                                            </div>
+                                            <div class="row message-bubble">
+                                                <p class="text-warning">AndreyV</p>
+                                                <p>чувствуешь старость в воздухе?</p>
+                                            </div>
+                                            <div class="row message-bubble">
+                                            <p class="text-warning">Tural157</p>
+                                                <p>Нет, не узнать вас. Кукуруза главное?</p>
+                                            </div>
+                                            <div class="row message-bubble">
+                                            <p class="text-warning">Gunter</p>
+                                                <p>Искорка</p>
+                                            </div>
+                                            <hr>
+                                        </div>
+                                        <div class="panel-footer">
+                                             <div class="input-group">
+                                              <input type="text" class="form-control">
+                                              <span class="input-group-btn">
+                                                <button class="btn btn-default" type="button">Отправить</button>
+                                              </span>
+                                            </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Рекламный блок -->
+                        <h2 class="p-2">Реклама</h2>
+                        <div class="container">
+                            <a href="https://grover-s.000webhostapp.com"><img width="390" height="600" class="img-fluid" src="/img/grover1.jpg" alt="grover"></a>
+                            <div class="container">
+                                <div class="container">
+                                    <h5>Переходя по рекламе вы поддерживаете наш проект!</h1>
+                                </div>
+                            </div>
+                        </div>
+                        
+
+
+            </div>
+		</section>
+		  
+	<!-- Логин попап-модальное окно v2 -->
+	<div class="modal fade" id="ModalForm" aria-hidden="true" aria-labelledby="ModalFormlabel" tabindex="-1">
+		<div class="modal-dialog modal-dialog-centered">
+			<div class="modal-content">
+				<!-- Форма для логина -->
+				<form action="">
+					<div class="modal-header">
+						<h5 class="modal-title">Войдите на сайт LevelRealms</h5>
+						<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+					</div>
+					<div class="modal-body">
+						<div class="mb-3">
+							<label for="Username">Ваш логин<span class="text-danger">*</span></label>
+							<input type="text" name="username" class="form-control" id="Username" placeholder="Введите логин" required>
+						</div>
+						<div class="mb-3">
+							<label for="Password">Ваш пароль<span class="text-danger">*</span></label>
+							<input type="password" name="password" class="form-control" id="Password" placeholder="Введите пароль" required>
+						</div>
+						<div class="mb-3">
+							<input class="form-check-input" type="checkbox" value="" id="remember">
+							<label class="form-check-label" for="remember">Запомнить меня</label>
+							<a href="/pages/helplr.html" class="float-end">Забыли пароль?</a>
+						</div>
+					</div>
+					<div class="modal-footer pt-4">                  
+						<button type="submit" class="btn btn-success mx-auto w-100">Войти</button>
+					</div>
+					<p class="text-center">У вас нет аккаунта? <a href="#" class="text-warning" data-bs-target="#loginv2nextreg" data-bs-toggle="modal" data-bs-dismiss="modal">Зарегистрируйтесь</a> </p>
+				</div>
+			</form>
+		</div>
+	</div>
+	<div class="modal fade" id="loginv2nextreg" aria-hidden="true" aria-labelledby="loginv2nextreglabel" tabindex="-1">
+		<div class="modal-dialog modal-dialog-centered">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="loginv2nextreglabel">Ошибка 928</h5>
+					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+				</div>
+				<div class="modal-body">
+					<div class="error928">
+						<img src="/img/gif/error.gif" class="steveminecraft" width="150px" alt="error-gif">
+					</div>
+				</div>
+				<div class="modal-footer">                  
+					<button class="btn btn-primary" data-bs-target="#ModalForm" data-bs-toggle="modal" data-bs-dismiss="modal">Вернуться назад</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	</main>
+
+	<footer class="section footer-classic context-dark bg-image">
+        <div class="container">
+          <div class="row row-30">
+            <div class="col-md-4 col-xl-5">
+              <div class="pr-xl-4"><a class="brand" href="/index.html"><img class="brand-logo-light img-fluid" src="/img/logotext.png" alt="LevelRealms" width="350" height="100"></a>
+                <p>Воспроизведение любых материалов сайта разрешается только при согласовании с администрацией.</p>
+                <p class="rights"><span>©  </span><span class="copyright-year">2024</span><span> </span><span>LevelRealms</span><span>. </span><span>Все права защищены.</span></p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <h5>Информация</h5>
+              <dl class="contact-list">
+                <dt>Наш офис:</dt>
+                <dd>129281, г. Москва, Староватутинский проезд, д.6.</dd>
+              </dl>
+              <dl class="contact-list">
+                <dt>Основная почта:</dt>
+                <dd><a href="#" class="text-decoration-none text-white">LevelRealms@mail.ru</a></dd>
+				<dt>По вопросам рекламы:</dt>
+                <dd><a href="#" class="text-decoration-none text-white">LevelRealmsCeo@mail.ru</a></dd>
+              </dl>
+            </div>
+            <div class="col-md-4 col-xl-3">
+              <h5>Навигация</h5>
+              <ul class="nav-list">
+                <li><a href="/index.html" class="text-decoration-none text-white">Главная</a></li>
+                <li><a href="/pages/gameslr.html" class="text-decoration-none text-white">Игры</a></li>
+                <li><a href="/pages/peoplelr.html" class="text-decoration-none text-white">Люди</a></li>
+                <li><a href="#" class="text-decoration-none text-white" data-bs-toggle="modal" data-bs-target="#ModalForm">Форум</a></li>
+                <li><a href="/pages/helplr.html" class="text-decoration-none text-white">Помощь</a></li>
+				<li><a href="/pages/premiumsub.html" class="text-decoration-none text-white">Премиум</a></li>
+				<li><a href="/pages/helplr.html" class="text-decoration-none text-white">Правила</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+      <script src="/js/peoplelr.js"></script>
+	  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+	  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+</body>
+</html>
